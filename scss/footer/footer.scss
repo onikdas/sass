@@ -1,0 +1,49 @@
+footer{
+    .container{
+        width: 100%;
+        height: 150px;
+    }
+    
+    a {
+        text-decoration: none;
+        color: #333;
+    }
+    .social-item{
+        display: inline-flex;
+        background-color: #fff;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        border: 1px solid#ddd;
+        margin-right: 0.25rem;
+        color: #333;
+        text-decoration: none;
+        align-items: center;
+        justify-content: center; 
+    }
+
+        .social-item:hover{
+            color: rgb(97, 97, 253);
+        }
+        .Subscribe-group{
+            margin-top: 1rem;
+
+        }
+        .from-control{
+            border: 1px solid#ddd;
+            padding: 0.5rem;
+
+
+        }
+        .from-control:hover,
+        .from-control:focus{
+         outline: 0px !important; 
+         -webkit-appearance:none;
+         box-shadow: none !important;  
+        }
+        button{
+            background-image: linear-gradient(90deg,#8b62ff 0, #3b1bff);
+            color: #fff;
+        }
+
+    }   
